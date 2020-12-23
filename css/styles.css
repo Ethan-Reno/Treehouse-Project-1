@@ -115,6 +115,20 @@ h1 {
   font-style: normal;
 }
 
+.subject {
+  display: block;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  line-height: 1.1;
+  text-align: right;
+  margin-right: 4em;
+}
+
+.subject:before {
+  content: ", ";
+  font-style: normal;
+}
+
 @media (min-width: 768px) {
   body {
     padding: 25px;
