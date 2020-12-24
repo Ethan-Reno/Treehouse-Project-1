@@ -121,12 +121,7 @@ h1 {
   letter-spacing: 0.05em;
   line-height: 1.1;
   text-align: right;
-  margin-right: 4em;
-}
-
-.subject:before {
-  content: ", ";
-  font-style: normal;
+  margin-right: 5em;
 }
 
 @media (min-width: 768px) {
